@@ -1,0 +1,269 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    width: 1600px;
+}
+
+/* Шапка */
+
+.header{
+outline: 1px solid tomato;
+
+
+
+}
+
+.container{
+    width: 1170px;
+    outline: 1px solid rgb(90, 215, 7);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    margin-bottom: 24px;
+   font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+text-decoration: none;
+}
+.web{
+ color: #2196F3;
+}
+.navigation-list{
+  list-style: none; 
+    
+    padding-inline-start: 0px;
+   
+    
+   
+}
+
+.list-addres{
+
+list-style: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+padding-inline-start: 0px;
+
+
+}
+.item{
+   
+    
+  
+   
+}
+.link{
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+
+
+
+}
+.mail{
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+.tel{
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+
+}
+
+
+
+/* Title */
+.heroy{
+    background-color: #2F303A;
+    
+}
+   
+   
+
+.heroy-title{
+    margin-top: 0px;
+font-size: 44px;
+line-height: 60px;
+padding-top: 200px;
+color: #FFFFFF;
+margin-bottom: 30px;
+
+
+}
+.button{
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-family: 'Roboto';
+    
+margin-bottom: 200px;
+padding: 10px 32px;
+
+
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+border-radius: 4px;
+text-decoration: none;
+min-width: 216px;
+}
+
+
+/* <h2>Наші переваги</h2> */
+.section-merit{
+    outline: 1px solid tomato;
+    padding-top: 94px;
+    margin-bottom: 94px;
+    
+    background-color: darkkhaki;
+}
+
+    
+.merit-list{
+   margin-top: 0px;
+   margin-bottom: 0;
+   padding-left: 0;
+   
+  list-style: none;
+}
+
+
+
+.merit-title{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+color: #212121;
+
+}
+.merit-paragraf{
+margin-top: 0;
+margin-bottom: 0;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+
+}
+
+
+
+/* Робота */
+.section{
+    outline: 1px solid tomato;
+    margin-bottom: 94px;
+}
+.section-title{
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+
+letter-spacing: 0.03em;
+
+
+color: #212121;
+
+
+
+}
+.work{
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+
+/* People */
+.section-people{
+    outline: 1px solid tomato;
+    background-color: antiquewhite;
+}
+.team-title{
+    padding-top: 94px;
+    margin-bottom: 50px;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.staff{
+    list-style: none;
+    padding-left: 0;
+}
+.name-title{
+margin-top: 30px;
+margin-bottom: 10px;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.profession{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+/* footer */
+.footer-title{
+    padding-top: 30px;
+    outline: 1px solid tomato;
+    background-color: #2F303A;;
+}
+.logo-footer{
+   margin-bottom: 20px;
+  
+   font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+text-decoration: none;
+}
+.web{
+ color: #2196F3; 
+
+}
+.list-footer{
+    list-style: none;
+    padding-left: 0;
+}
+.contakts-footer{
+padding-bottom: 9px;
+text-decoration: none;
+
+} 
