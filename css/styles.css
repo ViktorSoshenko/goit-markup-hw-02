@@ -45,10 +45,8 @@ body {
 
 .list-addres {
   list-style: none;
-
   font-size: 14px;
   line-height: 16px;
-
   padding-inline-start: 0px;
 }
 
@@ -66,7 +64,6 @@ body {
  }
 .mail{
   text-decoration: none;
-
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
@@ -78,7 +75,6 @@ body {
 }
 .tel {
   text-decoration: none;
-
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
@@ -121,11 +117,11 @@ body {
 
 .button:hover,
 .button:focus{
-    background-color: #2196F3;
+background-color: #2196F3;
 }
 .button:active{
-    background-color: #188CE8;
-    width: 216px;
+background-color: #188CE8;
+width: 216px;
 height: 50px;
 left: 692px;
 top: 430px;
@@ -146,14 +142,12 @@ border-radius: 4px;
   margin-top: 0px;
   margin-bottom: 0;
   padding-left: 0;
-
   list-style: none;
 }
 
 .merit-title {
   margin-top: 0px;
   margin-bottom: 10px;
-
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -162,9 +156,7 @@ border-radius: 4px;
 .merit-paragraf {
   margin-top: 0;
   margin-bottom: 0;
-
   font-style: normal;
-
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -179,12 +171,9 @@ border-radius: 4px;
 .section-title {
   margin-top: 0px;
   margin-bottom: 50px;
-
   font-size: 36px;
   line-height: 42px;
-
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 .work {
@@ -201,7 +190,6 @@ border-radius: 4px;
   padding-top: 94px;
   margin-bottom: 50px;
   font-style: normal;
-
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
@@ -214,7 +202,6 @@ border-radius: 4px;
 .name-title {
   margin-top: 30px;
   margin-bottom: 10px;
-
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
@@ -228,8 +215,8 @@ border-radius: 4px;
 
 /* footer */
 address{
-    font-style: normal;
-    color: aqua;
+  font-style: normal;
+  color: aqua;
 }
 .footer-title {
   padding-top: 30px;
@@ -283,8 +270,8 @@ cursor: pointer;
 }
 
 ul{
-    list-style: none;
-    padding-inline-start: 0;
+list-style: none;
+padding-inline-start: 0;
 }
 .portfolio-title{
 font-size: 18px;
@@ -293,18 +280,12 @@ letter-spacing: 0.06em;
 color: #212121;
 margin-top: 20px;
 margin-bottom: 4px;
-
 }
 .categories{
-    
 margin-top: 4px;
 margin-bottom: 20px;
-
 font-size: 16px;
 line-height: 30px;
-
-
 letter-spacing: 0.03em;
-
 color: #757575;
 }
