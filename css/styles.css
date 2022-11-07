@@ -1,5 +1,5 @@
 body {
-  
+  font-family: "Raleway";
   font-family: "Roboto", sans-serif;
   color: #212121;
   margin: 0;
@@ -34,8 +34,9 @@ body {
   margin-bottom: 25px;
   text-decoration: none;
 }
-.web {
+.accent {
   color: #2196f3;
+  font-family:'Raleway';
 }
 .navigation-list {
   list-style: none;
@@ -50,15 +51,14 @@ body {
 
   padding-inline-start: 0px;
 }
-.item {
-    
-}
+
 .link {
   text-decoration: none;
   font-size: 14px;
   line-height:16px;
   letter-spacing: 0.02em;
   color:  #212121;
+  
  }
  .link:hover,
  .link:focus{
@@ -265,7 +265,7 @@ color: #FFFFFF;
 .button-portfolio{
     color: #212121;
     background-color: #F5F4FA;
-    font-weight: 500;
+  
 font-size: 16px;
 line-height: 26px;
 text-align: center;
@@ -274,6 +274,7 @@ border: none;
 margin-bottom: 50px;
 padding: 6px 25px;
 cursor: pointer;
+
 }
 .button-portfolio:hover,
 .button-p.button:focus{
