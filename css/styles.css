@@ -2,21 +2,25 @@ body {
   font-family: "Raleway";
   font-family: "Roboto", sans-serif;
   color: #212121;
-  margin: 0;
-  width: 1600px;
+  background-color: #FFFFFF;
   letter-spacing: 0.03em;
 }
 
+/* колір заголовків-основного тексту #212121 */
+/* колір другорядного тексту #757575 */
+/* колір контактів  rgba(255, 255, 255, 0.6); */
+/* кнопкі і посилання #2196F3 */
+/* білий #FFFFFF */
+/* фон секцій #F5F4FA; #2F303A; */
 /* Шапка */
 
 .header {
   outline: 1px solid tomato;
-  background-color: #FFFFFF;
+  
 }
 
 
 .container {
-  width: 1170px;
   outline: 1px solid rgb(90, 215, 7);
   padding-left: 15px;
   padding-right: 15px;
@@ -26,7 +30,6 @@ body {
 .logo {
   
   font-weight: 700;
-  font-style: normal;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -43,17 +46,20 @@ body {
   padding-inline-start: 0px;
 }
 
+
 .list-addres {
+  font-weight: 500;
   list-style: none;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   padding-inline-start: 0px;
 }
 
 .link {
   text-decoration: none;
+  font-weight: 500;
   font-size: 14px;
-  line-height:16px;
+  line-height:1.15;
   letter-spacing: 0.02em;
   color:  #212121;
   
@@ -65,7 +71,6 @@ body {
 .mail{
   text-decoration: none;
   font-size: 14px;
-  line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -76,7 +81,6 @@ body {
 .tel {
   text-decoration: none;
   font-size: 14px;
-  line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -93,26 +97,25 @@ body {
 .heroy-title {
   margin-top: 0px;
   font-size: 44px;
-  line-height: 1,4;
-  padding-top: 200px;
+  line-height: 1.4;
   color: #ffffff;
   margin-bottom: 30px;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 .button {
-  display: inline-block;
+  
   color: #ffffff;
   background-color: #2196f3;
   font-family: "Roboto";
-  margin-bottom: 200px;
   padding: 10px 32px;
   letter-spacing: 0.06em;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   border-radius: 4px;
   text-decoration: none;
-  min-width: 216px;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .button:hover,
@@ -132,10 +135,6 @@ border-radius: 4px;
 /* <h2>Наші переваги</h2> */
 .section-merit {
   outline: 1px solid tomato;
-  padding-top: 94px;
-  margin-bottom: 94px;
-
-  
 }
 
 .merit-list {
@@ -148,17 +147,17 @@ border-radius: 4px;
 .merit-title {
   margin-top: 0px;
   margin-bottom: 10px;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   letter-spacing: 0.03em;
   
 }
 .merit-paragraf {
   margin-top: 0;
   margin-bottom: 0;
-  font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -169,10 +168,12 @@ border-radius: 4px;
   margin-bottom: 94px;
 }
 .section-title {
+  font-weight: 700;
   margin-top: 0px;
   margin-bottom: 50px;
+  text-align: center;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.15;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -184,14 +185,16 @@ border-radius: 4px;
 /* People */
 .section-people {
   outline: 1px solid tomato;
+  background-color: #F5F4FA;
  
 }
 .team-title {
+  font-weight: 700;
   padding-top: 94px;
   margin-bottom: 50px;
-  font-style: normal;
+  text-align: center;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.15;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -202,8 +205,9 @@ border-radius: 4px;
 .name-title {
   margin-top: 30px;
   margin-bottom: 10px;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -214,10 +218,7 @@ border-radius: 4px;
 }
 
 /* footer */
-address{
-  font-style: normal;
-  color: aqua;
-}
+
 .footer-title {
   padding-top: 30px;
   outline: 1px solid tomato;
@@ -238,27 +239,34 @@ address{
   padding-left: 0;
 }
 .contakts-footer {
+  font-weight: 400;
   padding-bottom: 9px;
   text-decoration: none;
+  font-style: normal
   
 }
 .addres{
 font-size: 14px;
-line-height: 1,2;
+line-height: 1.2;
 text-decoration: none;
 color: #FFFFFF;
 
 }
+
+/* портфоліо */
+
+
+
 .button-portfolio{
+  font-family: 'Roboto';
     color: #212121;
     background-color: #F5F4FA;
-  
+font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.5;
 text-align: center;
 letter-spacing: 0.03em;
 border: none;
-margin-bottom: 50px;
 padding: 6px 25px;
 cursor: pointer;
 
@@ -274,18 +282,21 @@ list-style: none;
 padding-inline-start: 0;
 }
 .portfolio-title{
+font-weight: 700;  
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 margin-top: 20px;
 margin-bottom: 4px;
+
 }
 .categories{
 margin-top: 4px;
 margin-bottom: 20px;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.9;
 letter-spacing: 0.03em;
 color: #757575;
+
 }
