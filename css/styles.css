@@ -165,7 +165,7 @@ border-radius: 4px;
 /* Робота */
 .section {
   outline: 1px solid tomato;
-  margin-bottom: 94px;
+  
 }
 .section-title {
   font-weight: 700;
@@ -213,7 +213,6 @@ border-radius: 4px;
 }
 .profession {
   margin-top: 10px;
-  margin-bottom: 30px;
   color:  #757575;
 }
 
